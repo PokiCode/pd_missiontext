@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.openEffect
+{
+    animation: inAnim 0.5s ease-in;
+}
+
+#missiontext
+{
+    display: none;
+}
+
+.missiontext
+{
+    position: absolute;
+    background:rgba(0, 0, 0, 0.685);
+    border-radius:5px;
+    -webkit-box-shadow:10px 9px 42px -5px rgba(0,0,0,0.52);
+    -moz-box-shadow:10px 9px 42px -5px rgba(0,0,0,0.52);
+    box-shadow:10px 9px 42px -5px rgba(0,0,0,0.397),0 0 10px rgba(0,0,0,0.4) inset;
+    padding: 10px;
+    font-size: 90%;
+}
+
+.topLeft
+{
+    top: 1%;
+    left: 0.3%;
+}
+
+.topRight
+{
+    top: 1%;
+    left: 63%;
+}
+
+.bottomLeft
+{
+    bottom: 1%;
+    left: 0.3%;
+}
+
+
+.bottomRight
+{
+    bottom: 1%;
+    left: 65%;
+}
+
+.bottomCenter
+{
+    bottom: 1%;
+    left: 37%;
+}
+
+.topCenter
+{
+    top: 1%;
+    left: 37%;
+}
+
+.title
+{
+    font-size: 111%;
+    color: rgba(255, 87, 87, 0.918); 
+}
+
+.text
+{
+    font-size: 92%;
+    color: rgba(207, 207, 207, 0.781);
+}
+
+
+@keyframes inAnim {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
